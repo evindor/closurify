@@ -4,7 +4,6 @@ var through = require('through2'),
 
 module.exports = function(opts) {
     return through.obj(function(file, enc, cb) {
-        console.log(opts.baseUrl);
         var st = transform(file, {baseUrl: opts.baseUrl});
         st.on('data', function(text) { file.contents = new Buffer(text)});
         file.pipe(st);
