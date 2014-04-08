@@ -1,27 +1,35 @@
 {
   "name": "closurify",
-  "version": "0.0.2",
-  "description": "Translates amd modules to closure compiler format",
+  "version": "0.0.3",
+  "description": "Translates AMD modules to closure compiler format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/main.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/evindor/closurify.git"
   },
   "keywords": [
-    ""
+    "gulpplugin",
+    "amd",
+    "closure",
+    "amd-to-closure"
   ],
   "author": "Arseny Zarechnev",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/evindor/closurify/issues"
   },
   "homepage": "https://github.com/evindor/closurify",
   "dependencies": {
     "amd-to-closure": "https://github.com/evindor/amd-to-closure/tarball/master",
-    "gulp-util": "^2.2.14",
     "through2": "^0.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.3.0",
+    "gulp": "^3.6.0",
+    "event-stream": "^3.1.1"
   }
 }
