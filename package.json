@@ -1,6 +1,6 @@
 {
   "name": "closurify",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Translates AMD modules to closure compiler format",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "mocha": "^1.18.2",
     "should": "^3.3.0",
     "gulp": "^3.6.0",
-    "event-stream": "^3.1.1"
+    "event-stream": "^3.1.1",
+    "gulp-util": "^2.2.14"
   }
 }
