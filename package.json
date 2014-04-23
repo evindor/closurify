@@ -1,6 +1,6 @@
 {
   "name": "closurify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Translates AMD modules to closure compiler format",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/evindor/closurify",
   "dependencies": {
-    "amd-to-closure": "https://github.com/wikidocs/amd-to-closure/archive/v0.2.1.tar.gz",
+    "amd-to-closure": "https://github.com/wikidocs/amd-to-closure/archive/v0.2.3.tar.gz",
     "through2": "^0.4.1"
   },
   "devDependencies": {
