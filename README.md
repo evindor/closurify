@@ -1,5 +1,6 @@
 Closurify
 ===================
+[![build status](https://secure.travis-ci.org/evindor/closurify.png)](http://travis-ci.org/evindor/closurify)
 
 Transform your amd modules to closure compiler dependency syntax.
 Relies on [amd-to-closure](https://github.com/bramstein/amd-to-closure).
